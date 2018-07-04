@@ -58,7 +58,6 @@ namespace ConsoleApp1
           TODOEntity e = EntityById(l);
           Console.WriteLine(e.ToString());
           l.Remove(e);
-          // l.Save();
           return "\r\nSuccessfully removed";
         }
         catch (Exception e) {

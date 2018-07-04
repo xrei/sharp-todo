@@ -43,6 +43,7 @@ class Menu {
   }
 }
 
+// Menu element
 class Element {
   public string Description;
   public string Name;
